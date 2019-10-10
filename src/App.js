@@ -10,7 +10,9 @@ function App() {
       <Greet name='yoyyo'><p>this is a childe</p></Greet>
       <Greet name='mimimi'><button>hello there</button></Greet>
       <Greet name='you'/>
-      <WelCome/>
+      <WelCome name='yoyyo'/>
+      <WelCome name='mimimi'/>
+      <WelCome name='you'/>
     </div>
   );
 }
