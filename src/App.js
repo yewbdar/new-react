@@ -7,7 +7,9 @@ import WelCome from './components/WelCome'
 function App() {
   return (
     <div className="App">
-      <Greet/>
+      <Greet name='yoyyo'><p>this is a childe</p></Greet>
+      <Greet name='mimimi'><button>hello there</button></Greet>
+      <Greet name='you'/>
       <WelCome/>
     </div>
   );
