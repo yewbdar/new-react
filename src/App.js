@@ -4,11 +4,14 @@ import './App.css';
 import Greet from './components/Greet'
 import WelCome from './components/WelCome'
 import Message from './components/Message'
+import Counter from './components/Counter'
+
 
 function App() {
   return (
     <div className="App">
-      <Message/>
+      <Counter/>
+      {/* <Message/> */}
       {/* <Greet name='yoyyo'><p>this is a childe</p></Greet>
       <Greet name='mimimi'><button>hello there</button></Greet>
       <Greet name='you'/>
