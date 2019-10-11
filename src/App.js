@@ -9,12 +9,14 @@ import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
 import ParentComponet from './components/ParentComponet'
 import   ChildComponent from './components/ChildComponent'
+import   StyledCompoent from './components/StyledCompoent'
 
 function App() {
   return (
     <div className="App">
+      <StyledCompoent/>
       {/* <ChildComponent/> */}
-      <ParentComponet/>
+      {/* <ParentComponet/> */}
       {/* <FunctionClick/> */}
       {/* <ClassClick/> */}
       {/* <Counter/> */}
