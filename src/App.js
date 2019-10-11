@@ -7,13 +7,16 @@ import Message from './components/Message'
 import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
-
+import ParentComponet from './components/ParentComponet'
+import   ChildComponent from './components/ChildComponent'
 
 function App() {
   return (
     <div className="App">
+      {/* <ChildComponent/> */}
+      <ParentComponet/>
       {/* <FunctionClick/> */}
-      <ClassClick/>
+      {/* <ClassClick/> */}
       {/* <Counter/> */}
       {/* <Message/> */}
       {/* <Greet name='yoyyo'><p>this is a childe</p></Greet>
