@@ -16,6 +16,7 @@ export default class LifecycleB extends Component {
     }
     getSnapshotBeforeUpdate(prevProps,prevState){
         console.log('LifecycleB','getSnapshotBeforeUpdate')
+        return null
     }
     componentDidUpdate(){
         console.log('LifecycleB','componentDidUpdate')  
@@ -24,8 +25,7 @@ export default class LifecycleB extends Component {
         console.log('LifecycleB','render')
         return (
             <div>
-                <button onClick={()=>{this.setState({name:'whats up'})}}>lifecycleB</button>
-                
+                LifecycleB
             </div>
         )
     }
