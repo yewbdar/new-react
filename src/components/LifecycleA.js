@@ -11,7 +11,18 @@ export default class LifecycleA extends Component {
     componentDidMount(){
         console.log('LifecycleA','componentDidMount')
     }
+    shouldComponentUpdate(){
+        console.log('LifecycleA','shouldComponentUpdate')
+        return true
+    }
+    getSnapshotBeforeUpdate(prevProps,prevState){
+        console.log('LifecycleA','getSnapshotBeforeUpdate')
+    }
+    componentDidUpdate(){
+        console.log('LifecycleA','componentDidUpdate')  
+    }
     render() {
+        console.log('LifecycleA','render')
         return (
             <div>
                 <LifecycleB/>
