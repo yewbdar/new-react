@@ -8,13 +8,15 @@ import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
 import ParentComponet from './components/ParentComponet'
-import   ChildComponent from './components/ChildComponent'
-import   StyledCompoent from './components/StyledCompoent'
+import ChildComponent from './components/ChildComponent'
+import StyledCompoent from './components/StyledCompoent'
+import Form from './components/Form'
 
 function App() {
   return (
     <div className="App">
-      <StyledCompoent/>
+      <Form/>
+      {/* <StyledCompoent/> */}
       {/* <ChildComponent/> */}
       {/* <ParentComponet/> */}
       {/* <FunctionClick/> */}
