@@ -12,10 +12,12 @@ import ChildComponent from './components/ChildComponent'
 import StyledCompoent from './components/StyledCompoent'
 import Form from './components/Form'
 import LifecycleA from './components/LifecycleA'
+import RefDemo from './components/RefsDemo'
 function App() {
   return (
     <div className="App">
-      <LifecycleA/>
+      <RefDemo/>
+      {/* <LifecycleA/> */}
       {/* <Form/> */}
       {/* <StyledCompoent/> */}
       {/* <ChildComponent/> */}

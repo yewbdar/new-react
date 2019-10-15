@@ -25,6 +25,8 @@ import React, { Component } from 'react'
         console.log('LifecycleB','render')
         return (
             <div>
+                <button onClick={()=>{this.setState({name:'whats up'})}}>lifecycleB</button>
+                
                 LifecycleB
             </div>
         )
