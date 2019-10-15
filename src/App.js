@@ -14,10 +14,12 @@ import Form from './components/Form'
 import LifecycleA from './components/LifecycleA'
 import RefDemo from './components/RefsDemo'
 import FRParentInput from './components/FRParentInput'
+import PortalDemo from './components/PortalDemo'
 function App() {
   return (
     <div className="App">
       <FRParentInput/>
+      <PortalDemo/>
       {/* <RefDemo/> */}
       {/* <LifecycleA/> */}
       {/* <Form/> */}
