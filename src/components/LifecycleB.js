@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-export default class LifecycleB extends Component {
+ class LifecycleB extends Component {
     state = {
         name:"yooo"
     }
@@ -30,3 +30,4 @@ export default class LifecycleB extends Component {
         )
     }
 }
+export default React.memo(LifecycleB)

@@ -25,7 +25,7 @@ export default class LifecycleA extends Component {
         console.log('LifecycleA','render')
         return (
             <div>
-                <button onClick={()=>{this.setState({name:'whats up'})}}>lifecycleB</button>
+                <button onClick={()=>{this.setState({name:'whats up'})}}>lifecycleA</button>
                 
                 <LifecycleB/>
             </div>
