@@ -12,4 +12,4 @@ import WithCounter from './WithCounter'
     }
 }
 
-export default WithCounter(ClickCounter)
+export default WithCounter(ClickCounter,10)
