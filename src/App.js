@@ -13,10 +13,12 @@ import StyledCompoent from './components/StyledCompoent'
 import Form from './components/Form'
 import LifecycleA from './components/LifecycleA'
 import RefDemo from './components/RefsDemo'
+import FRParentInput from './components/FRParentInput'
 function App() {
   return (
     <div className="App">
-      <RefDemo/>
+      <FRParentInput/>
+      {/* <RefDemo/> */}
       {/* <LifecycleA/> */}
       {/* <Form/> */}
       {/* <StyledCompoent/> */}
