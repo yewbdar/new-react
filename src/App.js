@@ -15,11 +15,21 @@ import LifecycleA from './components/LifecycleA'
 import RefDemo from './components/RefsDemo'
 import FRParentInput from './components/FRParentInput'
 import PortalDemo from './components/PortalDemo'
+import Hero from './components/Hero'
+import ErrorBundery from './components/ErrorBundery'
+
 function App() {
   return (
     <div className="App">
-      <FRParentInput/>
-      <PortalDemo/>
+       <ErrorBundery>
+      <Hero heroName='yo'/>
+      <Hero heroName='yobdi'/>
+     
+      <Hero heroName='Joker'/>
+      </ErrorBundery>
+      
+      {/* <FRParentInput/> */}
+      {/* <PortalDemo/> */}
       {/* <RefDemo/> */}
       {/* <LifecycleA/> */}
       {/* <Form/> */}
