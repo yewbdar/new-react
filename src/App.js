@@ -17,16 +17,21 @@ import FRParentInput from './components/FRParentInput'
 import PortalDemo from './components/PortalDemo'
 import Hero from './components/Hero'
 import ErrorBundery from './components/ErrorBundery'
+import HoverCounter from './components/HoverCounter'
+import ClickCounter from './components/ClickCounter'
 
 function App() {
   return (
     <div className="App">
-       <ErrorBundery>
+       <ClickCounter/>
+       <HoverCounter/>
+
+       {/* <ErrorBundery>
       <Hero heroName='yo'/>
       <Hero heroName='yobdi'/>
      
       <Hero heroName='Joker'/>
-      </ErrorBundery>
+      </ErrorBundery> */}
       
       {/* <FRParentInput/> */}
       {/* <PortalDemo/> */}
