@@ -10,7 +10,7 @@ export default class CounterTwo extends Component {
     render() {
         return (
             <div>
-                {this.props.children(this.state.count, this.increment)}
+                {this.props.render(this.state.count, this.increment)}
             </div>
         )
     }
