@@ -23,17 +23,19 @@ import HoverCounterTwo from './components/HoverCounterTwo'
 import ClickCounterTwo from './components/ClickCounterTwo'
 import User from './components/User';
 import CounterTwo from './components/CounterTwo';
+import ComponentC from './components/ComponentC';
 function App() {
   return (
     <div className="App">
+       <ComponentC/>
       {/* <CounterTwo />
       {(count,increment)=> <ClickCounterTwo count={count} increment={increment}/>}
       <CounterTwo /> */}
 
-      <CounterTwo render={(count,increment) => (
+      {/* <CounterTwo render={(count,increment) => (
       <HoverCounterTwo count={count} increment={increment}/>
-      )}/>
-
+      )}/> */}
+      
 
        {/* <ClickCounterTwo/>
        <HoverCounterTwo/>
