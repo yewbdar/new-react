@@ -24,10 +24,14 @@ import ClickCounterTwo from './components/ClickCounterTwo'
 import User from './components/User';
 import CounterTwo from './components/CounterTwo';
 import ComponentC from './components/ComponentC';
+import { userProvider } from './components/UserContext';
 function App() {
   return (
     <div className="App">
-       <ComponentC/>
+      <userProvider value='yooyeee'>
+      <ComponentC/>
+      </userProvider>
+       
       {/* <CounterTwo />
       {(count,increment)=> <ClickCounterTwo count={count} increment={increment}/>}
       <CounterTwo /> */}
