@@ -26,10 +26,12 @@ import CounterTwo from './components/CounterTwo';
 import ComponentC from './components/ComponentC';
 import { userProvider } from './components/UserContext';
 import GetList from './components/GetList';
+import PostList from './components/PostList';
 function App() {
   return (
     <div className="App">
-      <GetList/>
+      <PostList/>
+      {/* <GetList/> */}
       {/* <userProvider value='yooyeee'>
       <ComponentC/>
       </userProvider>

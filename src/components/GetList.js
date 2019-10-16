@@ -7,10 +7,10 @@ export default class GetList extends Component {
         errorMsg:''
     }
     componentDidMount=()=>{
-        axios.get('https://jsonplaceholder.typicode.com/posts1')
+        axios.get('https://jsonplaceholder.typicode.com/posts')
              .then(Response => {
-                //   console.log(Response.data)
-                 this.setState({data:Response.data},console.log(this.state.data))
+                   console.log(Response.data)
+                 this.setState({data:Response.data},console.log('hllo',this.state.data))
              })
              .catch(error => {
                 this.setState({errorMsg:"error retriving data"})
