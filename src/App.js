@@ -25,13 +25,15 @@ import User from './components/User';
 import CounterTwo from './components/CounterTwo';
 import ComponentC from './components/ComponentC';
 import { userProvider } from './components/UserContext';
+import GetList from './components/GetList';
 function App() {
   return (
     <div className="App">
-      <userProvider value='yooyeee'>
+      <GetList/>
+      {/* <userProvider value='yooyeee'>
       <ComponentC/>
       </userProvider>
-       
+        */}
       {/* <CounterTwo />
       {(count,increment)=> <ClickCounterTwo count={count} increment={increment}/>}
       <CounterTwo /> */}
